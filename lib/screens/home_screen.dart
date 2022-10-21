@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:gap/gap.dart';
+import 'package:tickets/screens/ticket_view.dart';
 import 'package:tickets/utils/app_styles.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -84,6 +85,17 @@ class HomeScreen extends StatelessWidget {
                         ))
                   ],
                 )
+              ],
+            ),
+          ),
+          const Gap(15),
+          SingleChildScrollView(
+            padding: const EdgeInsets.only(left: 20),
+            scrollDirection: Axis.horizontal,
+            child: Row(
+              children: [
+                TicketView(),
+                TicketView(),
               ],
             ),
           )
