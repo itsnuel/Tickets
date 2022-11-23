@@ -92,7 +92,7 @@ class SearchScreen extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Container(
-                height: AppLayout.getHeight(400),
+                height: AppLayout.getHeight(425),
                 width: Size.width*0.42,
                 padding: EdgeInsets.symmetric(horizontal:15, vertical: 15),
                 decoration: BoxDecoration(
